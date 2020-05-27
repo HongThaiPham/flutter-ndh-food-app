@@ -3,6 +3,7 @@ import 'package:foodapp/category_item.dart';
 import 'package:foodapp/fake_data.dart';
 
 class CategoriesPage extends StatelessWidget {
+  static const routeName = '/CategoriesPage';
   @override
   Widget build(BuildContext context) {
     return GridView(
